@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(Relojes.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.cont {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  width: 40%;
+  height: 80%;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 50px;
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  border: none;
+  resize: none;
+  outline: none;
+  padding: 15px 0px;
+  width: 80%;
+  margin: 20px;
+  transition: all 300ms;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input:focus,
+textarea:focus {
+  border-bottom-color: #048680;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: #06746e;
+  padding: 15px;
+  width: 200px;
+  color: white;
+  border-radius: 2px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+  margin: 20px 0px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+button:hover {
+  transform: scale(1.05);
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px;
+}
+
+.navegacion {
+  width: 100%;
+  margin: auto;
+  background: #000;
+}
+
+.navegacion ul {
+  list-style: none;
+}
+
+.menu > li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu > li > a {
+  display: block;
+  padding: 15px 150px;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #ce7d35;
+  transition: all 0.3s;
+}
+
+.navegacion {
+  width: 100%;
+  margin: auto;
+  background: #000;
+}
+
+.navegacion ul {
+  list-style: none;
+}
+
+.menu > li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu > li > a {
+  display: block;
+  padding: 15px 130px;
+  color: #fff;
+  font-family: "Open sans";
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: #ce7d35;
+  transition: all 0.3s;
+}
